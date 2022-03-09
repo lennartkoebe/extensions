@@ -2,13 +2,15 @@
   "name": "extensions",
   "displayName": "Opinionated Vue & PHP dev Extensions",
   "publisher": "lennartkoebe",
+  "repository": "https://github.com/lennartkoebe/extensions",
   "description": "An opinionated Extensionpack for VSCode",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.65.0"
   },
   "scripts": {
-    "build": "vsce package"
+    "build": "vsce package",
+    "publish": "vsce publish"
   },
   "categories": [
     "Extension Packs"
