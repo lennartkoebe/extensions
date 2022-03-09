@@ -1,0 +1,40 @@
+{
+  "name": "extensions",
+  "displayName": "Opinionated Vue & PHP dev Extensions",
+  "publisher": "lennartkoebe",
+  "description": "An opinionated Extensionpack for VSCode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "scripts": {
+    "build": "vsce package"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "antfu.slidev",
+    "antfu.vite",
+    "bmewburn.vscode-intelephense-client",
+    "cweijan.vscode-mysql-client2",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "eg2.vscode-npm-script",
+    "esbenp.prettier-vscode",
+    "johnsoncodehk.volar",
+    "johnsoncodehk.vscode-typescript-vue-plugin",
+    "lokalise.i18n-ally",
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-ssh-edit",
+    "onecentlin.laravel5-snippets",
+    "onecentlin.laravel-blade",
+    "PKief.material-icon-theme",
+    "redhat.fabric8-analytics",
+    "redhat.vscode-commons",
+    "redhat.vscode-yaml",
+    "usernamehw.errorlens",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "adam-bender.commit-message-editor"
+  ]
+}
